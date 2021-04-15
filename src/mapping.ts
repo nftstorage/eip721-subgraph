@@ -130,6 +130,8 @@ export function handleTransfer(event: Transfer): void {
                 eip721Token.contract = tokenContract.id;
                 eip721Token.tokenID = tokenId;
                 eip721Token.mintTime = event.block.timestamp;
+                eip721Token.blockNumber = event.block.number;
+                eip721Token.blockHash = event.block.hash;
                 if (tokenContract.supportsEIP721Metadata) {
                     let metadataURI = contract.try_tokenURI(tokenId);
                     if(!metadataURI.reverted) {

@@ -12,6 +12,8 @@ type Token @entity {
   owner: Owner!
   mintTime: BigInt!
   tokenURI: String!
+  blockNumber: BigInt!
+  blockHash: Bytes!
 }
 
 type TokenContract @entity {
