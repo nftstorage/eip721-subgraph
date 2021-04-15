@@ -14,7 +14,7 @@ in your package.json you can add a script to deploy that subgraph in your runnin
 ```json
 {
   "scripts": {
-    "deploy:eip721-subgraph": "subgraph-deploy -s wighawag/eip721-subgraph -f eip721-subgraph -i http://localhost:5001/api -g http://localhost:8020"
+    "deploy:eip721-subgraph": "subgraph-deploy -s nftstorage/eip721-subgraph -f eip721-subgraph -i http://localhost:5001/api -g http://localhost:8020"
   }
 }
 ```

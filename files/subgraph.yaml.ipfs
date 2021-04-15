@@ -25,7 +25,7 @@ dataSources:
       abi: EIP721
       startBlock: 0
 description: EIP-721
-repository: 'https://github.com/wighawag/eip721-subgraph'
+repository: 'https://github.com/nftstorage/eip721-subgraph'
 schema:
   file:
     /: /ipfs/QmXS4VUm7VndHZbqRcopbeNdVx6joCq7VECjy61N9GBwKT
